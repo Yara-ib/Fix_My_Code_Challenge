@@ -1,6 +1,8 @@
-# Project: 0x00. Fix my code
+# Fix My Code
 
-## Tasks
+## Project: 0x00. Fix my code
+
+### Tasks
 
 | Task | File |
 | ---- | ---- |
