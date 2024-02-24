@@ -30,7 +30,7 @@ class User():
         return self.__password
 
     @password.setter
-    def password(self, pwd):
+    def password(self, pwd=None):
         """
         Password setter:
         - `None` if `pwd` is `None`
@@ -53,7 +53,7 @@ class User():
         if pwd is None or type(pwd) is not str:
             return False
         if self.__password is None:
-            return True
+            return False
         return hashlib.md5(pwd.encode()).hexdigest().lower() == self.__password
 
 
