@@ -1,6 +1,7 @@
 #!/usr/bin/python3
 """ Square Module """
 
+
 if __name__ == "__main__":
     class Square():
         """Square Class """
@@ -21,8 +22,6 @@ if __name__ == "__main__":
         def __str__(self):
             """ Returning String format """
             return "{}/{}".format(self.width, self.width)
-
-
 
     s = Square(width=12)
     print(s)
