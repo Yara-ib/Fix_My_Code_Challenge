@@ -4,8 +4,8 @@
 
 class Square():
     """Square Class """
-    width = 0
-    height = 0
+    # width = 0
+    # height = 0
 
     def __init__(self, *args, **kwargs):
         """ Initialization for instances """
@@ -29,7 +29,7 @@ class Square():
 
 if __name__ == "__main__":
 
-    s = Square(width=12, height=12)
+    s = Square(width=12)
     print(s)
     print(s.area_of_my_square())
     print(s.perimeter_of_square())
