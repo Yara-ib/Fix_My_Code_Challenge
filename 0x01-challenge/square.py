@@ -4,8 +4,6 @@
 
 class Square():
     """Square Class """
-    width = 0
-
 
     def __init__(self, *args, **kwargs):
         """ Initialization for instances """
